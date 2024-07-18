@@ -1,0 +1,165 @@
+.home-container {
+  font-family: Arial, sans-serif;
+}
+
+.carousel-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.rows{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.trademark{
+  padding-left: 10px;
+  background: black;
+  color: white;
+  position: fixed;
+  top: 80%;  
+  left:-63px;
+  transform: rotate(90deg);
+  width: 140px;
+  height: 27px;
+}
+.restaurant-item {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.restaurant-card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.restaurant-card:hover {
+  transform: scale(1.05);
+}
+
+.restaurant-card img.restaurant-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.restaurant-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 15px 0 10px;
+}
+
+.restaurant-card p {
+  font-size: 14px;
+  color: #757575;
+  margin-bottom: 5px;
+}
+.restaurant-detail{
+  display: flex;
+  text-align: left;
+  gap:1rem;
+  padding: 20px;
+}
+.restaurant-info{
+  width: 70%;
+}
+.restaurant-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f8e825;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.leftbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  background-color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.leftbar.open {
+  transform: translateX(0);
+}
+
+.leftbar-content {
+  padding: 20px;
+}
+
+.leftbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.leftbar-header h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.leftbar-close {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.leftbar-section {
+  margin-bottom: 20px;
+}
+
+.leftbar-section label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.leftbar-section input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.leftbar-apply button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2874f0;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.leftbar-apply button:hover {
+  background-color: #0056b3;
+}

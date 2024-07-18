@@ -1,0 +1,54 @@
+.navbar-custom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.search-form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+ 
+}
+
+
+.search-form .input-group {
+  flex: 1;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+@media (min-width: 1000px) {
+  .search-form .input-group {
+    width: 400px; /* Decent size for large screens */
+  }
+}
+
+@media (max-width: 1000px) {
+  .search-form .input-group {
+    width: 40%; /* Reduced size */
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .navbar-custom .compname {
+    position: absolute;
+    left: 50px;
+    top:-10px;
+  }
+}
+
+.navbar-custom .nav-link {
+  margin-left: 10px;
+}
+
+.navbar-custom .form-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

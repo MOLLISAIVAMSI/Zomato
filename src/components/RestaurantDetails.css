@@ -1,0 +1,94 @@
+
+.det{
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  background:url('https://images.unsplash.com/photo-1464454709131-ffd692591ee5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bm9uJTIwdmVnJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.restaurant-det {
+  padding: 20px;
+  background:rgba(255,255,255,0.6);
+ 
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.info{
+  padding:1.5rem;
+}
+.info p{
+  padding-top: 0.5rem;
+  font-size: larger;
+}
+.back-button {
+  padding: 10px 20px;
+  background-color: #2874f0;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px auto;
+  display: block;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.flex-start {
+  text-align: left;
+  padding: 1rem;
+}
+
+.flex-end {
+
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.restaurant-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.locate-button {
+  padding: 10px 20px;
+  background-color: #2874f0;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 15%;
+  width: 70%;
+}
+.locate-button span{
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -1px;
+}
+.locate-button:hover {
+  background-color: #0056b3;
+}

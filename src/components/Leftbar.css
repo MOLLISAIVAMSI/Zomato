@@ -1,0 +1,62 @@
+.leftbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1050;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .leftbar.open {
+    transform: translateX(0);
+  }
+  
+  .leftbar-content {
+    padding: 15px;
+  }
+  
+  .leftbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .leftbar-close {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .leftbar-section {
+    margin-top: 20px;
+  }
+  
+  .leftbar-section label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .leftbar-section input,
+  .leftbar-section select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .leftbar-apply {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .leftbar {
+      width: 100%;
+    }
+  }
+  
